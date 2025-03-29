@@ -6,8 +6,6 @@ INSERT nashville_housing_data_2013_2016_staging
 SELECT * 
 FROM nashville_housing_data_2013_2016;
 
-SELECT * FROM nashville_housing_data_2013_2016_staging;
-
 -- Remove duplicate records based on key fields
 SELECT `Parcel ID`, `Property Address`, `Sale Date`, `Legal Reference`, COUNT(*)
 FROM nashville_housing_data_2013_2016_staging
