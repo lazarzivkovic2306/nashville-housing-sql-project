@@ -65,3 +65,5 @@ SELECT *
 FROM nashville_housing_data_2013_2016_staging
 ORDER BY `Sale Price` DESC
 LIMIT 10;
+Deleted old SQL file after organizing into sql_scripts/
+
